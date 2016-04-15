@@ -1,0 +1,113 @@
+
+
+/* CUERPO GENERAL */
+body{
+	font-family: 'Dosis', sans-serif;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	font-family: 'Dosis', sans-serif;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Dosis', sans-serif;
+}
+
+/* BARRA */
+header{
+	text-transform: uppercase;
+}
+
+/* ESPACIO ENTRE SECCIONES */
+section {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+#ejemplo .container{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+}
+
+/* CABECERA */
+.pic {
+	/*background: url(img/a1.jpg); */
+	background-color: #85fac9; 
+}
+.home_text{
+	padding-top: 240px;
+	padding-bottom: 240px;
+}
+.home_text h2{
+	color: #010101;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+.home_text p{
+	color: #838487;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.home_text i{
+	color: #ff0066;
+}
+
+
+/* Acerca de mi */
+
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+/* Lugares de primer ejercicio arreglado */
+
+#ciudad {
+	padding-top: 20px;
+}
+
+#header-city {
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:5px;
+}
+
+#nav-city {
+	line-height:30px;
+    background-color:#eeeeee;
+	float:left;
+    padding:15px;
+
+}
+
+#section-city {
+	float:left;
+	padding: 10px;
+}
+
+#img-city {
+	padding-right: 5px;
+}
+
+
+/* ULIMA FOTO */
+#ejemplo4 {
+	background-color: blue;
+	padding: center;
+}
+
+/* Logo final */
+#log {
+	padding-top: 50px;
+}
+
